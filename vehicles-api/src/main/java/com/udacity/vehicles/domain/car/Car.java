@@ -20,7 +20,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 /**
  * Declares the Car class, related variables and methods.
  */
-@Entity
+@Entity(name = "Car" )
 @EntityListeners(AuditingEntityListener.class)
 public class Car {
 
